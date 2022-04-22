@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans;
+}
+
+:root{
+    --preto: #222;
+    --branco: #fff;
+    --creme: #d7c599;
+    --amarelo: #dd7b05;
+    --vermelho: #750908;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--preto);
+    border-bottom: 3px solid var(--amarelo);
+}
+
+.container-selecione{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo h2{
+    margin-top: 10px;
+    color: var(--branco);
+}
+
+.links ul{
+    margin-right: 50px;
+    display: flex;
+}
+
+.links ul li{
+    padding: 15px 60px;
+    list-style: none;
+    font-size: 1.3rem;
+    color: var(--branco);
+}
+
+.links ul li:hover{
+    cursor: pointer;
+    color: var(--creme);
+    transition: 300ms all ease;
+    font-size: 1.4rem;
+    
+}
+
+main{
+    width: 100vw;
+    height: 120vh;
+    background-color: var(--preto);
+}
+
+.selecione-pizza{
+    color: white;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+.selecione-pizza{
+    display: flex;
+    justify-content: center;
+}
+
+.radio-selecione{
+    display: flex;
+    justify-content: center;
+}
+
+.form-radio{
+    color: white;
+}
+
+.form-radio li{
+    margin-bottom: 10px;
+}
+
+.form-radio ul li{
+    list-style: none;
+}
+
+.form-radio ul li label{
+    margin-left: 20px;
+    font-size: 1.4rem;
+}
+
+.form-radio li input[type=radio] {
+    color: var(--vermelho);
+}
+
+.button{
+    display: flex;
+    justify-self: center;
+    margin-top: 30px;
+    
+}
+
+.estorno{
+    margin-left: 30px;
+}
+
+.button button{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    background-color: var(--vermelho);
+    color: white;
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.button button:hover{
+    background-color: var(--creme);
+    color: var(--preto);
+    cursor: pointer;
+    transition: 300ms all ease-out;
+}
+
+.table{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td{
+    color: white;
+    border: 2px solid white;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 10px 30px;
+}

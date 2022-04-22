@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizzaria - Veras</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header">
+            <div class="logo">
+                <h2>Pizzaria - Veras</h2>
+            </div>
+            <!-- <div class="links">
+                <ul>
+                    <li>Início</li>
+                    <li>Totais</li>
+                    <li>Contato</li>
+                </ul>
+            </div> -->
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <div class="container-selecione">
+            <div class="selecione-pizza">
+                <h3>Selecione a pizza que você vendeu</h3>
+            </div>
+
+            <div class="radio-selecione">
+               <form action="" class="form-radio">
+                   <ul>
+                       <li><input type="radio" name="pizzas" id="mussarela"><label for="mussarela">Mussarela</label></li>
+                       <li><input type="radio" name="pizzas" id="calabresa"><label for="calabresa">Calabresa</label></li>
+                       <li><input type="radio" name="pizzas" id="bacon"><label for="bacon">Bacon</label></li>
+                       <li><input type="radio" name="pizzas" id="queijo"><label for="queijo">Queijo</label></li>
+                       <li><input type="radio" name="pizzas" id="frango"><label for="frango">Frango</label></li>
+                   </ul>
+               </form>
+            </div>
+
+            <div class="button">
+                    <button id="vendas" class="vendas"><p>Venda</p></button>
+                    <button id="estorno" class="estorno"><p>Estorno</p></button>
+            </div>
+        </div>
+
+        <section class="table">
+            <table>
+                <tr>
+                    <th>Sabores</th> <th>Quantidade</th> <th>Valores</th> 
+                </tr>
+                <tr>
+                    <td>Mussarela</td> <td id="resultadoMussarela"></td> <td id="vendaMussarela"></td>
+                </tr>
+                <tr>
+                    <td>Calabresa</td> <td id="resultadoCalabresa"></td> <td id="vendaCalabresa"></td>
+                </tr>
+                <tr>
+                    <td>Bacon</td> <td id="resultadoBacon"></td> <td id="vendaBacon"></td>
+                </tr>
+                <tr>
+                    <td>Queijo</td> <td id="resultadoQueijo"></td> <td id="vendaQueijo"></td>
+                </tr>
+                <tr>
+                    <td>Frango</td> <td id="resultadoFrango"></td> <td id="vendaFrango"></td>
+                </tr>
+            </table>
+        </section>
+        
+    </main>
+
+
+</body>
+<script src="script.js"></script>
+</html>
